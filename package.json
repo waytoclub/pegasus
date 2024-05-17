@@ -1,0 +1,35 @@
+{
+  "name": "pegasus",
+  "version": "1.0.0",
+  "description": "Test for pegasusone company",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waytoclub/pegasus.git"
+  },
+  "keywords": [
+    "Horizantal",
+    "scalling",
+    "node",
+    "express",
+    "event",
+    "schedular",
+    "crud"
+  ],
+  "author": "Sanju Panikar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/waytoclub/pegasus/issues"
+  },
+  "homepage": "https://github.com/waytoclub/pegasus#readme",
+  "dependencies": {
+    "agenda": "^5.0.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0"
+  }
+}
